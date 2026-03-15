@@ -1,0 +1,23 @@
+# ROS 2 build
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# MATLAB
+*.asv
+*.mex*
+slprj/
+
+# Modèles lourds (utiliser Git LFS)
+*.pt
+*.pth
+*.onnx
+
+# Webots
+*.wbproj
